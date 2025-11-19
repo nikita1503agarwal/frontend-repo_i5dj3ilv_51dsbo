@@ -16,7 +16,7 @@ export default function Hero({ t, email }) {
             <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse"></span>
             {t.badge}
           </div>
-          <h1 className="mt-6 text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight text-white tracking-tight">
+          <h1 className="mt-6 text-3xl sm:text-4xl md:text-5xl font-semibold leading-snug text-white tracking-tight">
             {t.heroTitle}
           </h1>
           <p className="mt-4 text-slate-300 text-lg">
