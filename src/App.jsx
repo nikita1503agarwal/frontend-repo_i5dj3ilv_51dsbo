@@ -13,7 +13,7 @@ const copy = {
   nl: {
     nav: { home: 'Home', process: 'Stappen', reviews: 'Reviews', faq: 'FAQ', contact: 'Boek een call' },
     badge: 'Gespecialiseerd in installatie bedrijven',
-    heroTitle: 'Vexai - AI agents die leads en support voor HVAC-bedrijven automatiseren',
+    heroTitle: 'Vexai, AI receptionisten die jouw telefoontjes opnemen en je agenda vullen met gekwalificeerde klussen.',
     heroSubtitle: 'Wij bouwen en implementeren een sales en support agent die afspraken plant, offertes kwalificeert en 24/7 reageert. Live in 2 weken.',
     ctaPrimary: 'Boek een call',
     ctaSecondary: 'Bekijk reviews',
@@ -44,7 +44,7 @@ const copy = {
   en: {
     nav: { home: 'Home', process: 'Process', reviews: 'Reviews', faq: 'FAQ', contact: 'Book a call' },
     badge: 'Specialized in HVAC',
-    heroTitle: 'Vexai - AI agents that automate leads and support for HVAC companies',
+    heroTitle: 'Vexai, AI receptionists that answer your calls and fill your schedule with qualified jobs.',
     heroSubtitle: 'We build and deploy a sales and support agent that schedules appointments, qualifies quotes and replies 24/7. Live in 2 weeks.',
     ctaPrimary: 'Book a call',
     ctaSecondary: 'See reviews',
