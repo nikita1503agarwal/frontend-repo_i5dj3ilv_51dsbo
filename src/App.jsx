@@ -13,7 +13,7 @@ const copy = {
   nl: {
     nav: { home: 'Home', process: 'Stappen', reviews: 'Reviews', faq: 'FAQ', contact: 'Boek een call' },
     badge: 'Gespecialiseerd in installatie bedrijven',
-    heroTitle: 'Vexai, AI receptionisten die jouw telefoontjes opnemen en je agenda vullen met gekwalificeerde klussen.',
+    heroTitle: 'Vexai - AI receptionisten die jouw telefoontjes opnemen en je agenda vult met gekwalificeerde klussen.',
     heroSubtitle: 'Wij bouwen en implementeren een support agent die afspraken plant, offertes kwalificeert en 24/7 reageert. Live in 2 weken.',
     ctaPrimary: 'Boek een call',
     ctaSecondary: 'Bekijk reviews',
