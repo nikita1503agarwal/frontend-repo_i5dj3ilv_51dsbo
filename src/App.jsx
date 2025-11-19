@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react'
 import { Menu } from 'lucide-react'
 import Hero from './components/Hero'
-import TrustedBy from './components/TrustedBy'
+// import TrustedBy from './components/TrustedBy'
 import Steps from './components/Steps'
 import Reviews from './components/Reviews'
 import FAQ from './components/FAQ'
@@ -12,13 +12,13 @@ const EMAIL = 'renee@vexai.nl'
 const copy = {
   nl: {
     nav: { home: 'Home', process: 'Stappen', reviews: 'Reviews', faq: 'FAQ', contact: 'Boek een call' },
-    badge: 'Gespecialiseerd in HVAC',
-    heroTitle: 'Vexai — AI agents die leads en support voor HVAC-bedrijven automatiseren',
-    heroSubtitle: 'Wij bouwen en implementeren een sales- en supportagent die afspraken plant, offertes kwalificeert en 24/7 reageert — live in 2 weken.',
+    badge: 'Gespecialiseerd in installatie bedrijven',
+    heroTitle: 'Vexai - AI agents die leads en support voor HVAC-bedrijven automatiseren',
+    heroSubtitle: 'Wij bouwen en implementeren een sales en support agent die afspraken plant, offertes kwalificeert en 24/7 reageert. Live in 2 weken.',
     ctaPrimary: 'Boek een call',
     ctaSecondary: 'Bekijk reviews',
-    timeframe: 'Doorlooptijd: gemiddeld 10–14 dagen',
-    trustedBy: 'Vertrouwd door vooruitstrevende HVAC-bedrijven',
+    timeframe: 'Doorlooptijd: gemiddeld 10-14 dagen',
+    // trustedBy removed per request
     processTitle: 'Van nul naar live in 4 duidelijke stappen',
     steps: [
       { title: 'Intake & doelstellingen', desc: 'We analyseren processen, scripts en systemen. We bepalen KPI’s en succescriteria.' },
@@ -37,19 +37,19 @@ const copy = {
       { q: 'Voor welke kanalen werkt Vexai?', a: 'Telefonie, websitechat, WhatsApp en e-mail. We integreren met jouw bestaande tools.' },
       { q: 'Hoe waarborgen jullie merktoon en kwaliteit?', a: 'We trainen op jouw scripts, cases en tone-of-voice. Alles wordt getest en gemonitord.' },
       { q: 'Wat kost het?', a: 'Vaste opstart + maandabonnement afhankelijk van volume en kanalen. Vraag een offerte aan.' },
-      { q: 'Hoe snel kunnen we starten?', a: 'Planning kan meestal binnen 1 week. Live in 10–14 dagen.' },
+      { q: 'Hoe snel kunnen we starten?', a: 'Planning kan meestal binnen 1 week. Live in 10-14 dagen.' },
     ],
     footerCta: 'Klaar om te starten? Boek een call',
   },
   en: {
     nav: { home: 'Home', process: 'Process', reviews: 'Reviews', faq: 'FAQ', contact: 'Book a call' },
     badge: 'Specialized in HVAC',
-    heroTitle: 'Vexai — AI agents that automate leads and support for HVAC companies',
-    heroSubtitle: 'We build and deploy a sales and support agent that schedules appointments, qualifies quotes and replies 24/7 — live in 2 weeks.',
+    heroTitle: 'Vexai - AI agents that automate leads and support for HVAC companies',
+    heroSubtitle: 'We build and deploy a sales and support agent that schedules appointments, qualifies quotes and replies 24/7. Live in 2 weeks.',
     ctaPrimary: 'Book a call',
     ctaSecondary: 'See reviews',
-    timeframe: 'Timeline: 10–14 days on average',
-    trustedBy: 'Trusted by forward-thinking HVAC companies',
+    timeframe: 'Timeline: 10-14 days on average',
+    // trustedBy removed per request
     processTitle: 'From zero to live in 4 clear steps',
     steps: [
       { title: 'Intake & objectives', desc: 'We analyze processes, scripts and systems. We define KPIs and success.' },
@@ -68,7 +68,7 @@ const copy = {
       { q: 'Which channels does Vexai support?', a: 'Telephony, website chat, WhatsApp and email. We integrate with your existing tools.' },
       { q: 'How do you ensure brand tone and quality?', a: 'We train on your scripts, cases and tone of voice. Everything is tested and monitored.' },
       { q: 'What does it cost?', a: 'Fixed setup + monthly subscription based on volume and channels. Request a quote.' },
-      { q: 'How fast can we start?', a: 'Usually within a week. Go live in 10–14 days.' },
+      { q: 'How fast can we start?', a: 'Usually within a week. Go live in 10-14 days.' },
     ],
     footerCta: 'Ready to start? Book a call',
   }
@@ -106,7 +106,7 @@ export default function App() {
 
       <main className="relative z-10">
         <Hero t={t} email={EMAIL} />
-        <TrustedBy t={t} />
+        {/* TrustedBy removed per request */}
         <Steps t={t} />
         <Reviews t={t} />
         <FAQ t={t} />
@@ -123,7 +123,7 @@ export default function App() {
 
       <footer className="relative z-10 border-t border-white/10">
         <div className="mx-auto max-w-6xl px-6 py-6 text-center text-xs text-slate-500">
-          © {new Date().getFullYear()} Vexai — All rights reserved
+          © {new Date().getFullYear()} Vexai - All rights reserved
         </div>
       </footer>
     </div>

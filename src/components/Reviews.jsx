@@ -9,7 +9,7 @@ const ReviewCard = ({ name, role, text }) => (
       ))}
     </div>
     <p className="mt-3 text-slate-300">“{text}”</p>
-    <p className="mt-4 text-sm text-slate-400">— {name}, {role}</p>
+    <p className="mt-4 text-sm text-slate-400">{name}, {role}</p>
   </div>
 )
 
